@@ -1,0 +1,102 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body Styling */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color:rgb(128, 0, 255);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+
+  }
+  
+  /* Header Styling */
+header {
+    background-color: #21243f; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    border-bottom: 2px solid #444; 
+  }
+  
+  /* Navigation Menu Styling */
+nav ul {
+    list-style: none; /* Removes default list bullet points */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Aligns items horizontally */
+    justify-content: center; /* Centers navigation items */
+    gap: 20px; /* Adds space between items */
+  }
+  
+  nav a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes links bold */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: hotpink; /* Changes color on hover */
+  }
+  
+  /* Main Content Styling */
+main {
+    max-width: 800px; /* Limits content width for better readability */
+    margin: 20px auto; /* Centers the content */
+    padding: 20px; /* Adds padding inside the main content */
+    background-color: white; /* Sets a white background */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+  /* Footer Styling */
+footer {
+    background-color: #29213f; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Centers footer content */
+    padding: 10px 0; /* Adds padding around the footer content */
+    border-top: 2px solid #444; /* Adds a border to separate the footer */
+    margin-top: 20px; /* Adds space above the footer */
+  }
+  
+  /* Button Styling */
+button {
+    background-color: #3f2126; /* Dark background color for buttons */
+    color: white; /* White text color */
+    border: none; /* Removes default button border */
+    padding: 10px 20px; /* Adds padding inside buttons */
+    border-radius: 5px; /* Rounds the button corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+  button:hover {
+    background-color: hotpink; /* Changes background color on hover */
+  }
+
+
+  /* Link Styling */
+a {
+    color: #29213f; /* Dark color for links */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: hotpink; /* Changes color on hover */
+  }
+  
+  /* Image Styling */
+img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Rounds the corners */
+    display: block; /* Centers the image */
+    margin: 20px auto; /* Adds margin around images */
+  }
+  
